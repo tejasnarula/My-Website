@@ -1,0 +1,128 @@
+/* Master styles */
+body{
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav Styles*/
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side> div {
+    margin-right: 28px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;;
+}
+
+.nav-link-wrapper a:hover{
+    color: black;;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+
+/*Home styles*/
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 350px; 
+  height: 0;
+}
+
+.text-wrapper{
+    margin-top: 50;
+    margin-bottom: 50;
+    color: lightsalmon;
+}
+
+.content-info {
+    margin: 0%;
+    color: black;
+}
+
+.content-info p {
+    text-align: center;
+}
+
+/* About page*/
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+    color: lightseagreen;
+}
+
+.text {
+    padding: 30px;
+}
+
+/* games page*/
+
+.mygames-content-wrapper {
+    padding: 30px;
+}
+
+.mygames-content-wrapper h1 {
+    color: aquamarine;
+}
+
+.mygames-link-wrapper a{
+    color: blue;
+}
+
+.mygames-link-wrapper {
+    margin-bottom: 5px;
+}
+
+.mygames-link-wrapper img{
+    margin-left: 20px;
+}
+
+.mygames-content-heading h1{
+    margin-top: 40px;
+}

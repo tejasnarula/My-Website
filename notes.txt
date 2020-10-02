@@ -1,0 +1,25 @@
+need:-
+
+- text editior(using VS CODE)
+- web browser (chrome)
+
+TO DO'S:
+
+1. build the project :
+    - Creating folder
+    - adding files
+    - connecting files 
+
+2. Nav bar
+    - 2 links and a name
+
+3. Portfolio item grid
+    -Images
+    -Titles
+    -Descriptions
+    -Animations
+    -Java script
+
+4. About page
+    -Images
+    -split colum layout
